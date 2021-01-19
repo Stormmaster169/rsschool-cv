@@ -28,10 +28,10 @@ function specialNumber(n) {
 ```
 ## **Experience**
 ## **Education**
-* [Программирование на Python (stepik.org)]: https://stepik.org/cert/292740
-* [Python: основы и применение (stepik.org)]: https://stepik.org/cert/390774
-* [HTML и CSS (stepik.org)]: https://stepik.org/cert/705599
-* [JavaScript (stepik.org)]: https://stepik.org/cert/805081
+* [Программирование на Python (stepik.org)](https://stepik.org/cert/292740)
+* [Python: основы и применение (stepik.org)](https://stepik.org/cert/390774)
+* [HTML и CSS (stepik.org)](https://stepik.org/cert/705599)
+* [JavaScript (stepik.org)](https://stepik.org/cert/805081)
 ## **English**
 * *English leve* - A2
 * *Practice* - Stafford House School of English (Elementary Level)
