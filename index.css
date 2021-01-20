@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: right;
+}
+
+.avatar {
+  max-width: 45%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  max-width: 50%;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.top-info-box {
+  margin-top: 0px;
+}
+
+.box {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.list {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
