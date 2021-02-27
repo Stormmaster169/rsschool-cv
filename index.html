@@ -2,112 +2,163 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>CV</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/icons/CV.png" />
   </head>
   <body>
-    <div class="content">
+    <header>
       <div class="wrapper">
-        <div class="name">
-          <h1>Roman Mazurov</h1>
-        </div>
-        <div class="main">
-          <div class="avatar">
-            <img src="ava.jpg" />
-          </div>
-          <div class="info">
-            <div class="box">
-              <h2 class="top-info-box">My contacts</h2>
-              <hr />
-              <ul class="list">
-                <li class="list-item">+375 44 546-51-84</li>
-                <li class="list-item">stormmaster169@gmail.com</li>
-                <li class="list-item">
-                  <a href="https://github.com/Stormmaster169">GitHub</a>
-                </li>
-              </ul>
-            </div>
-            <div class="box">
-              <h2>About me</h2>
-              <hr />
-              <p>
-                I’m beginner front-end developer from Zhodino, 27 y. o. I like
-                technologies and gadgets. My hobbies: sport, cybersport, reading
-                books, intellectual games.
-              </p>
-            </div>
-            <div class="box">
-              <h2>Skills</h2>
-              <hr />
-              <ul class="list">
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>GitHub</li>
-              </ul>
-            </div>
-            <div class="box">
-              <h2>Sample code</h2>
-              <hr />
-              <code>
-                function specialNumber(n) {<br />
-                &nbsp;&nbsp;let arr = n.toString().split('')<br />
-                &nbsp;&nbsp;for(i=0; i < arr.length-1; i++){<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;if(Math.abs(arr[i] - arr[i+1]) !== 1
-                ){<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 'Not!!'<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;}<br />
-                &nbsp;&nbsp;}<br />
-                &nbsp;&nbsp;return 'Jumping!!'<br />
-                }
-              </code>
-            </div>
-            <div class="box">
-              <h2>Experience</h2>
-              <hr />
-            </div>
-            <div class="box">
-              <h2>Education</h2>
-              <hr />
-              <ul class="list">
-                <li>
-                  <a href="https://stepik.org/cert/292740"
-                    >Программирование на Python (stepik.org)</a
-                  >
-                </li>
-                <li>
-                  <a href="https://stepik.org/cert/390774"
-                    >Python: основы и применение (stepik.org)</a
-                  >
-                </li>
-                <li>
-                  <a href="https://stepik.org/cert/705599"
-                    >HTML и CSS (stepik.org)</a
-                  >
-                </li>
-                <li>
-                  <a href="https://stepik.org/cert/805081"
-                    >JavaScript (stepik.org)</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="box">
-              <h2>English</h2>
-              <hr />
-              <ul class="list">
-                <li><em>English leve</em> - A2</li>
-                <li>
-                  <em>Practice</em> - Stafford House School of English
-                  (Elementary Level)
-                </li>
-              </ul>
-            </div>
+        <div class="header-content">
+          <figure class="header__image">
+            <img src="./assets/images/photo.jpg" alt="photo" />
+          </figure>
+          <div class="header__title">
+            <h1>Roman Mazurov</h1>
+            <h3>Beginner front-end developer</h3>
           </div>
         </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="main-section">
+          <article class="article">
+            <h2>About me</h2>
+            <p>
+              The main goal for me is to become a good front-end developer.
+              I have no experience in industrial development yet, but I am ready to work hard and learn new technologies to start developing adaptive and responsive sites and cool apps.
+            </p>
+            <p><strong>Languages:</strong> Russian (native), English (A2)</p>
+            <p><strong>Location:</strong> Minsk, Belarus</p>
+          </article>
+          <article class="article">
+            <h2>Contacts</h2>
+            <ul class="items-list">
+              <li>
+                <img src="assets/icons/call-24px.svg" alt="phone-number" />
+                <a href="tel:+375445465184">+375(44)546-51-84</a>
+              </li>
+              <li>
+                <img src="assets/icons/email-24px.svg" alt="e-mail" />
+                <a href="mailto:Stormmaster169@gmail.com"
+                  >Stormmaster169@gmail.com</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/github.svg" alt="github" />
+                <a href="https://github.com/Stormmaster169" target="_blank"
+                  >Stormmaster169</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/telegram.svg" alt="telegram" />
+                <a href="https://t.me/stormmaster169" target="_blank"
+                  >@stormmaster169</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2>Experience</h2>
+            <p>
+              In the process of developing...
+            </p>
+          </article>
+          <article class="article">
+            <h2>Education</h2>
+            <ul class="items-list">
+              <li>
+                <img src="assets/icons/stepik.svg" alt="stepik" />
+                <a href="https://stepik.org/cert/292740" target="_blank"
+                  >Программирование на Python</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/stepik.svg" alt="stepik" />
+                <a href="https://stepik.org/cert/390774" target="_blank"
+                  >Python: основы и применение</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/stepik.svg" alt="stepik" />
+                <a href="https://stepik.org/cert/705599" target="_blank"
+                  >HTML и CSS</a
+                >
+              </li>
+              <li>
+                <img src="assets/icons/stepik.svg" alt="stepik" />
+                <a href="https://stepik.org/cert/805081" target="_blank"
+                  >JavaScript</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="article">
+            <h2>Skills</h2>
+            <div class="skills-box">
+              <ul class="items-list">
+                <li>&#9734;&#9733;&#9733;&#9733;&#9733;</li>
+                <li>&#9734;&#9733;&#9733;&#9733;&#9733;</li>
+                <li>&#9734;&#9734;&#9734;&#9733;&#9733;</li>
+                <li>&#9734;&#9734;&#9733;&#9733;&#9733;</li>
+                <li>&#9734;&#9734;&#9734;&#9733;&#9733;</li>
+                <li>&#9734;&#9734;&#9734;&#9733;&#9733;</li>
+              </ul>
+              <ul class="items-list">
+                <li>HTML5</li>
+                <li>CSS3 / SCSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git / Github</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+          </article>
+          <article class="article">
+            <h2>Code example</h2>
+            <p><strong>Recursive function:</strong></p>
+<pre><code>function mygcd(x, y) {
+  let maxNum = Math.max(x, y);
+  let minNum = Math.min(x, y);
+  let gcd = maxNum % minNum;
+  return gcd === 0 ? minNum : mygcd(minNum, gcd);
+}</code></pre>
+          </article>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="footer-icons">
+            <ul class="footer-navigation">
+              <li>
+                <a
+                  href="https://rs.school/js/"
+                  target="_blank"
+                  class="RSS__icon"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Stormmaster169"
+                  target="_blank"
+                  class="GH__icon"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <h4>2021</h4>
+        </div>
+      </div>
+    </footer>
+    <div class="mask"></div>
   </body>
 </html>
